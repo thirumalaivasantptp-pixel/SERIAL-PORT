@@ -28,7 +28,7 @@ END
 #include<reg51.h>
 void main(void)
 {
-unsigned char msg[]="VENKAT";
+unsigned char msg[]="B";
 unsigned char i;
 TMOD=0X20; 
 TH1=0XFA;
@@ -66,7 +66,7 @@ START:
 #include<reg51.h>
 void main(void)
 {
-unsigned char msg[]="VENKAT";
+unsigned char msg[]="THIRUMALAIVASAN J";
 unsigned char i;
 TMOD=0X20; //TIMER 1, MODE 2
 TH1=0XFA;
